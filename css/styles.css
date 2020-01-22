@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    height: 100%;
+}
+
+.flex-container {
+    width: 97%;
+    max-width: 978px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+  }
+  
+  
+/* ----- header ----- */
+
+header,
+footer {
+    height: 100px;
+    width: 100%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* ----- content ------ */
+
+main {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-items {
+    width: 100%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    align-items: center;
+}
+
+#div-1,
+#div-2,
+#div-3, 
+#div-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  
+  
+}
+
+#div-1 {
+    background-color: aqua;
+}
+#div-2 {
+    background-color: darkred;
+}
+#div-3 {
+    background-color: hotpink;
+}
+#div-4 {
+    background-color: lawngreen;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /*------------- @media queries ------------*/
+
+ /*----- TABLET -----*/
+ 
+@media (min-width: 768px) {
+
+    header {
+      background-color: #D6858F;
+    }
+
+    #div-1 {
+        background-color: #1F0E2A;
+        
+    }
+
+    #div-2 {
+        background-color: mediumslateblue;
+    }
+
+    #div-3 {
+        background-color: saddlebrown;
+    }
+
+    #div-4 {
+        background-color: skyblue;
+    }
+
+    footer {
+        background-color: thistle;
+    }
+}
+
+/*-----DESKTOP-----*/
+
+
+@media (min-width: 1200px) {
+
+    header {
+        background-color: green;
+    }
+
+    #div-1 {
+        background-color: crimson;
+    }
+
+    #div-2 {
+        background-color: palegoldenrod;
+    }
+
+    #div-3 {
+        background-color: olive;
+    }
+
+    #div-4 {
+        background-color: goldenrod;
+    }
+
+    footer {
+        background-color: violet;
+    }
+}
