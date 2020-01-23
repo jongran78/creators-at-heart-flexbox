@@ -11,15 +11,14 @@ body {
 }
 
 .flex-container {
-    width: 97%;
-    max-width: 978px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    justify-content: space-between;
     align-content: center;
     margin: auto;
+    justify-content: space-between;
   }
   
   
@@ -45,6 +44,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
 .flex-items {
@@ -105,11 +105,13 @@ footer {
 
     #div-1 {
         background-color: #1F0E2A;
+        width: 50%;
         
     }
 
     #div-2 {
         background-color: mediumslateblue;
+        width: 50%;
     }
 
     #div-3 {
@@ -129,25 +131,31 @@ footer {
 
 
 @media (min-width: 1200px) {
-
     header {
         background-color: green;
     }
 
     #div-1 {
         background-color: crimson;
+        width: 70%;
+        
     }
 
     #div-2 {
         background-color: palegoldenrod;
+        width: 30%;
+        
+        
     }
 
     #div-3 {
         background-color: olive;
+        width: 50%;
     }
 
     #div-4 {
         background-color: goldenrod;
+        width: 50%;
     }
 
     footer {
